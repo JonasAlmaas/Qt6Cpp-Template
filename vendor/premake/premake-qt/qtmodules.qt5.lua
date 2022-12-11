@@ -75,6 +75,21 @@ premake.extensions.qt.modules.qt5 = {
 		include = "QtTest",
 		defines = { "QT_TESTLIB_LIB" }
 	},
+	webenginecore = {
+		name = "WebEngineCore",
+		include = "QtWebEngineCore",
+		defines = { "QT_WEBENGINECORE_LIB" }
+	},
+	webenginequick = {
+		name = "WebEngineQuick",
+		include = "QtWebEngineQuick",
+		defines = { "QT_WEBENGINEQUICK_LIB" }
+	},
+	webenginewidgets = {
+		name = "WebEngineWidgets",
+		include = "QtWebEngineWidgets",
+		defines = { "QT_WEBENGINEWIDGETS_LIB" }
+	},
 	websockets = {
 		name = "WebSockets",
 		include = "QtWebSockets",
